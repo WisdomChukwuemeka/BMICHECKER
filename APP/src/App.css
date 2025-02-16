@@ -1,0 +1,103 @@
+.desc{
+    display: flex;
+    justify-content: center;
+}
+.desc h3{
+    color: rgb(200, 200, 200);
+    width: 55rem;
+    padding-top: 20px
+}
+
+.bmi-container{
+    display: flex;
+    justify-content: center;
+}
+
+.bmi-first-container{
+    background-color: orange;
+    margin-top: 50px;
+    width: 50rem;
+    height: 60vh;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.bmi-second-container{
+    background-color: #272b30;
+    width: 45rem;
+    text-align: center;
+    margin: -15px 0 0 40px;
+    height: 50vh;
+    padding-top: 20px;
+}
+
+.bmi-second-container h2{
+    color: white;
+    font-size: 2.5rem;
+}
+
+input{
+    width: 25rem;
+    height: 5vh;
+    margin-top: 0.8rem;
+    padding: 10px;
+}
+
+.button{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.result, .clear, .delete{
+    width: 7rem;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.8s, color 0.8s;
+}
+
+.result{
+    background-color: rgb(121, 187, 15);
+}
+.result:hover{
+    background-color: rgb(64, 100, 5);
+    color: white;
+}
+
+.clear{
+    background-color: rgb(105, 74, 5);
+}
+.clear:hover{
+    background-color: rgb(59, 41, 2);
+    color: white;
+}
+
+
+.delete{
+    background-color: black;
+}
+.delete:hover{
+    background-color: rgb(29, 25, 25);
+    color: white;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 10vh;
+}
+.data div{
+    background-color: white;
+    width: 24rem;
+    padding-top: 10px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
