@@ -1,0 +1,151 @@
+@media (max-width: 1279px) {
+  .desc div h3 {
+    color: rgb(200, 200, 200);
+    width: 700px;
+    padding-top: 20px;
+  }
+
+  .BMI {
+    .bmi-first-container {
+      background-color: orange;
+      margin-top: 50px;
+      width: 45rem;
+      height: 60vh;
+      text-align: center;
+      padding-top: 3rem;
+    }
+  }
+
+  .BMI {
+    .bmi-second-container {
+      background-color: #272b30;
+      width: 40rem;
+      text-align: center;
+      margin: -15px 0 0 40px;
+      height: 50vh;
+      padding-top: 20px;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .desc div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desc div h3 {
+    color: rgb(200, 200, 200);
+    width: 32rem;
+    padding-top: 20px;
+  }
+
+  .BMI {
+    .bmi-first-container {
+      background-color: orange;
+      margin-top: 50px;
+      width: 35rem;
+      height: 60vh;
+      text-align: center;
+      padding-top: 3rem;
+    }
+  }
+
+  .BMI {
+    .bmi-second-container {
+      background-color: #272b30;
+      width: 30rem;
+      text-align: center;
+      margin: -15px 0 0 40px;
+      height: 50vh;
+      padding-top: 20px;
+    }
+  }
+
+  .BMI-INPUT{
+    input{
+        width: 16rem;
+      }
+  } 
+
+  .BMI-BUTTON{
+    .button{
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .result, .clear, .delete{
+        width: 5rem;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+    
+  }
+
+}
+
+@media(max-width: 480px){
+    .desc div {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .desc div h3 {
+        color: rgb(200, 200, 200);
+        width: 25rem;
+        padding-top: 20px;
+      }
+    
+      .BMI {
+        .bmi-first-container {
+          background-color: orange;
+          margin-top: 50px;
+          width: 25rem;
+          height: 60vh;
+          text-align: center;
+          padding-top: 3rem;
+        }
+      }
+    
+      .BMI {
+        .bmi-second-container {
+          background-color: #272b30;
+          width: 20rem;
+          text-align: center;
+          margin: -15px 0 0 40px;
+          height: 50vh;
+          padding-top: 20px;
+        }
+      }
+    
+      .BMI-INPUT{
+        input{
+            width: 16rem;
+          }
+      } 
+    
+      .BMI-BUTTON{
+        .button{
+            margin: 10px 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+    
+        .result, .clear, .delete{
+            width: 5rem;
+            height: 5vh;
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+        
+      }
+    
+}
